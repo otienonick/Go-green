@@ -1,0 +1,85 @@
+/*font-family: 'Architects Daughter', cursive;
+font-family: 'Shadows Into Light', cursive;*/
+body{
+    background-image: url("./assets/brocoli.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{display: flex;
+    justify-content: space-between;
+    background-color:#C4C4C4;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul>li{
+    margin-right: 20px;
+    list-style: none;
+    padding: 18px;
+
+}
+#nav p{padding: 18px;
+
+}
+
+
+#about{
+    text-align: center;
+
+font-family: 'Architects Daughter', cursive;
+}
+
+#product{display: flex;
+
+}
+#product div{
+    padding: 20px 10px 20px 20px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    background-color: burlywood;
+    opacity: 0.9;
+
+}
+footer{
+    background-color: burlywood;
+    text-align: center;
+    height: 100px;
+    margin-top: 8%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+li:hover{
+    background-color: burlywood;
+    text-decoration: underline 3px;
+
+}
+a:link{
+text-decoration: none;
+font-weight: 700;
+}
+li{
+    font-size: 1.5em;
+}
+li>a{
+    color: black;
+    text-decoration:underline lime;
+}
+
+  
+
+nav>p{
+
+    font-size: 1.5em;
+    background-color: burlywood;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+
+
+
+
